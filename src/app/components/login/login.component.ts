@@ -22,7 +22,7 @@ export class LoginComponent implements OnInit {
    
   }
 
-  logForm(form: NgForm) {
+  logForm() {
 
     if (this.person.pass !== "prueba" || this.person.username !== "prueba") {
       this.showAlert=true;

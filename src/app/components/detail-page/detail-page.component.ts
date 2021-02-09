@@ -10,7 +10,7 @@ import { ApiBooksService } from '../../services/api-books.service';
 })
 export class DetailPageComponent  {
 
-  bookId={};
+  bookId;
 
   content:string;
 
