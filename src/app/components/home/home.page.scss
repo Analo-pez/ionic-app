@@ -1,9 +1,0 @@
-.result {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-transform: capitalize;
-    background-color: rgba(0, 0, 0, 0.486);
-    &__card {
-        padding: 10px;
-    }
-}
